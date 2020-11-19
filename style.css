@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color:rgb(221, 127, 60);
     text-align: center;
 }
 
@@ -66,6 +66,8 @@ nav ul {
 
 nav ul li {
     float: left;
+    width:140px;
+    height:55px;
 }
 
 nav li a {
