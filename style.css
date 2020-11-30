@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(255, 255, 255);  
+    background-color: #ffa743;
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font:Verdana, Arial, Sans-Serif;
 }
 
 
@@ -36,12 +36,6 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: right;
-    margin-right: 15px;
-    height: 250px;
-}
-
 .smalltext {
     font-size: 0.7em;
 }
@@ -51,12 +45,17 @@ a {
     text-decoration: none;
 }
 
+.textstyle{
+    color:rgb(87, 42, 10);
+    font-weight: bold;
+}
+
 a:hover {
     text-decoration: underline;
 }
 
-
 /* navigatiebalk */
+
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -81,10 +80,47 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #ffa743;
+    color:rgb(87, 42, 10);
+    background-color: #c9660a;
 }
 
 nav li a.active {
-    background-color: #9c5009;
+    background-color: #8f4c0d;
 }
 
+/* foto's */
+
+img.goden-rechts{
+    float:right;
+    margin-left:10px;
+    width:115px;
+    height:155px;
+    margin-bottom:3px;
+}
+
+img.goden-links{
+    float:left;
+    margin-right:10px;
+    width:130px;
+    height:175px;
+    margin-bottom:3px;
+}
+
+img.foto-rechts {
+    float:right;
+    margin-left:10px;
+    height:230px;
+    width:300px;
+}
+
+img.foto-links {
+    float:left;
+    margin-right:10px;
+    height:275px;
+    width:300px;
+}
+
+img.foto-onder {
+    position: relative;
+    left:220px;
+}
