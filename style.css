@@ -54,6 +54,35 @@ a:hover {
     text-decoration: underline;
 }
 
+.Zeus{
+    border:double rgb(87, 42, 10) 6px;
+    margin-bottom: 10px;
+    margin-top:7px;
+}
+
+.Poseidon{
+    border:double rgb(87, 42, 10) 6px;
+    margin-bottom: 10px;
+}
+
+.Hades{
+    border:double rgb(87, 42, 10) 6px;
+    margin-bottom: 10px;
+}
+
+.Hera{
+    border:double rgb(87, 42, 10) 6px;
+    margin-bottom: 10px;
+}
+
+
+.Athene{
+    border:double rgb(87, 42, 10) 6px;
+    margin-bottom: 10px;
+}
+
+
+
 /* navigatiebalk */
 
 nav ul {
@@ -122,5 +151,7 @@ img.foto-links {
 
 img.foto-onder {
     position: relative;
-    left:220px;
+    left:100px;
+    height:200px;
+    width:500px;
 }
