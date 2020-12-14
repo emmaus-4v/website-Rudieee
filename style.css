@@ -64,6 +64,9 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.tekstgrootte{
+    font-size: 18px;
+}
 
 /* navigatiebalk */
 
@@ -104,32 +107,38 @@ nav li a.active {
 img.goden-rechts{
     float:right;
     margin-left:10px;
-    width:95px;
-    height:155px;
+    width:75px;
+    height:135px;
     margin-bottom:3px;
+    padding-top: 2px;
+    padding-right: 2px;
 }
 
 img.goden-rechts2{
     float:right;
     margin-left:10px;
-    width:105px;
-    height:155px;
+    width:85px;
+    height:135px;
     margin-bottom:3px;
+    padding-top: 2px;
+    padding-right: 2px;
 }
 
 img.goden-links{
     float:left;
     margin-right:10px;
-    width:130px;
-    height:175px;
+    width:110px;
+    height:155px;
     margin-bottom:3px;
+    padding-top: 2px;
+    padding-left: 2px;
 }
 
 img.foto-rechts {
     float:right;
     margin-left:10px;
-    height:230px;
-    width:300px;
+    height:220px;
+    width:280px;
 }
 
 img.foto-links {
@@ -144,4 +153,41 @@ img.foto-onder {
     left:100px;
     height:200px;
     width:500px;
+}
+
+/* Animaties */
+@keyframes slide {
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 100px;
+    }
+}
+
+.slide{
+    position:relative;
+    animation: slide 4s;
+}
+
+@keyframes kleur {
+    0%{  
+        color:rgb(87, 42, 10);
+    }
+    25%{   
+        color:rgb(124, 60, 13);
+    }
+    50%{
+        color:rgb(158, 76, 17);
+     }
+     75%{
+        color:rgb(196, 94, 22);
+     }
+     100%{
+        color:rgb(253, 123, 30);
+     }
+}
+
+.kleur{
+    animation: kleur 5s infinite;
 }
