@@ -46,11 +46,31 @@ a {
 
 .textstyle{
     color:rgb(87, 42, 10);
-    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link {
+  color:rgb(158, 77, 20);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:rgb(87, 42, 10);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
+  color:rgb(46, 23, 7);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:rgb(87, 42, 10);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 #Zeus{
@@ -60,12 +80,30 @@ a:hover {
 }
 
 .border{ 
-    border:double rgb(87, 42, 10) 6px;
+    border: double rgb(87, 42, 10) 6px;
     margin-bottom: 10px;
 }
 
 .tekstgrootte{
     font-size: 18px;
+}
+.tekstgrootte2{
+    font-size: 15px;
+}
+
+table, th, td {
+    border: 2px solid rgb(87, 42, 10);
+}
+table{
+    margin-left: 163px;
+    margin-top: 7px;
+}
+
+button{
+    margin-bottom: 7px;
+    color:rgb(87, 42, 10);
+    margin-left: 250px;
+    background-color:#db6f0a;
 }
 
 /* navigatiebalk */
@@ -100,6 +138,11 @@ nav li a:hover {
 
 nav li a.active {
     background-color: #8f4c0d;
+    text-decoration: none;
+}
+
+nav li a:link {
+    text-decoration: none;
 }
 
 /* foto's */
