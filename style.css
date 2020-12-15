@@ -93,10 +93,12 @@ a:active {
 
 table, th, td {
     border: 2px solid rgb(87, 42, 10);
+    font-size: 14px;
 }
 table{
-    margin-left: 163px;
+    margin-left: 100px;
     margin-top: 7px;
+    width: 500px;
 }
 
 button{
